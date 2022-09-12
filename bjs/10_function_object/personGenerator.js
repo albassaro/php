@@ -175,7 +175,7 @@ const personGenerator = {
         let monthValue = this.randomValue(this.dateBirthJson, 1, 0, 0, monthNumber); // Вывод выбранного месяца в текстовом варианте
         let dayBirth = (monthNumber === 2) ? this.randomIntNumber(28, 1) : (monthNumber === 4 || monthNumber  === 6 || monthNumber === 9 || monthNumber === 11) ? this.randomIntNumber(30, 1) : this.randomIntNumber(31, 1); // Вывод дня в зависимости от месяца
         let yearBirth = this.randomIntNumber(2000, 1960); // Вывод года рождения
-        let outputFullDate = `${dayBirth} ${monthValue} ${yearBirth}`; // Вывод полной даты
+        let outputFullDate = `${dayBirth} ${monthValue} ${yearBirth}`; // Вывод полной даты в формате (день,месяц,год)
         return outputFullDate;
     },
 

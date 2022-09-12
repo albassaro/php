@@ -25,7 +25,6 @@ span {
 
 .col-col-md-6-offset-md-3 {
     margin: 20px auto auto;
-     
 }
 
 .card-text-center{
@@ -51,16 +50,15 @@ span {
 }
 
 button {
-    border-radius: 6px;
+    background-color: #d3cece5d;
+    border-radius: 6px ;
     width: fit-content;
     height: 4vh;
-    border: solid 1px;
     margin-right: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding:  0px 20px;
 }
 
 button:hover{
     background-color: #5f7986;
-    color: white;
+    color: white; 
 }
