@@ -1,0 +1,66 @@
+h5 {
+    font-weight: normal;
+    color: white;
+    text-align: center;
+}
+
+h6 {
+    padding: 2px 8px 4px 5px;
+    margin-bottom: 2px;
+    background-color: #5f7986;
+    width:fit-content;
+    border-bottom-right-radius: 4px;
+    color: white; 
+    font-weight: normal;
+}
+
+.card-header{
+    background-color: #678b9c;
+}
+
+span {
+    margin-left: 10px;
+    font-size: 110%;
+}
+
+.col-col-md-6-offset-md-3 {
+    margin: 20px auto auto;
+     
+}
+
+.card-text-center{
+    border: none;
+    border-radius: 3px;
+    box-shadow: 3px 5px 10px 3px rgba(0, 0, 0, 0.5);
+}
+
+.card-body {
+    text-align: left;
+}
+
+.col {
+    padding: 0px 10px;
+}
+
+.card-generated_data {
+    border: 2px solid #49768d ;
+    border-radius: 5px;
+    margin: 5px 5px 15px 0px;
+    padding-bottom: 1px;
+    background-color: #d3cece67;
+}
+
+button {
+    border-radius: 6px;
+    width: fit-content;
+    height: 4vh;
+    border: solid 1px;
+    margin-right: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+button:hover{
+    background-color: #5f7986;
+    color: white;
+}
